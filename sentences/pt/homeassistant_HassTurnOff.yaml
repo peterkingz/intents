@@ -3,7 +3,7 @@ intents:
   HassTurnOff:
     data:
       - sentences:
-          - "<desliga> [a[s]|o[s]] [luz[es]|interruptor[es]] [do|da] <nome>"
+          - "<desliga> [a[s]|o[s]] [luz[es]|interruptor[es]|lâmpada[s]] [do|da|de] <nome>"
           - "<desliga> <nome>"
         excludes_context:
           domain:

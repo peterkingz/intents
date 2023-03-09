@@ -8,3 +8,9 @@ intents:
           domain: "fan"
           name: "all"
         response: fans_area
+      - sentences:
+          - "(liga | ligue | ligar) a ventoinha <nome>"
+        slots:
+          domain: "fan"
+          name: "all"
+        response: fans_area
