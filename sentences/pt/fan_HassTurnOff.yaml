@@ -7,3 +7,9 @@ intents:
         slots:
           domain: "fan"
           name: "all"
+      - sentences:
+          - "(desliga | desligue | desligar) a ventoinha <nome>"
+        slots:
+          domain: "fan"
+          name: "all"
+        response: fans_area

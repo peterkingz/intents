@@ -5,4 +5,5 @@ intents:
       - sentences:
           - "<qual> [a] temperatura"
           - "<qual> a temperatura <na_zona>"
-          - "a que temperatura está <zona>"
+          - "a <qual> temperatura está [a] <zona>"
+          - "<qual> temperatura está na <zona>"
